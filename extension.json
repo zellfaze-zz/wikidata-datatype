@@ -1,0 +1,27 @@
+{
+        "name": "Wikidata Datatype for Wikibase",
+        "author": "Zell Faze",
+        "url": "https://www.zellfaze.org",
+        "description": "Adds a Wikidata Datatype to Wikibase allowing items to reference Wikidata items and properties",
+        "version": "0.1",
+        "license-name": "CC-0",
+        "type": "datavalues",
+        "manifest_version": 1,
+        "AutoloadClasses": {
+                "WikibaseWikidataType": "WikibaseWikidataType_body.php",
+                "WikidataItemValidator": "includes/WikidataItemValidator.php",
+                "WikidataItemParser": "includes/WikidataItemParser.php",
+                "WikidataItemFormatter": "includes/WikidataItemFormatter.php"
+        },
+        "callback": "WikibaseWikidataType::onExtensionLoad",
+        "Hooks": {
+                "NameOfHook": [
+                        "WikibaseWikidataType::WikibaseRepoDataTypes"
+                ]
+        },
+        "MessagesDirs": {
+                "WikibaseWikidataType": [
+                        "i18n"
+                ]
+        }
+}

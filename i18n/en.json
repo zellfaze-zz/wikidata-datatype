@@ -1,0 +1,5 @@
+{
+  "wikibase-listdatatypes-wikidata-item-head": "Wikidata Item",
+  "wikibase-listdatatypes-wikidata-item-body": "Links to other items on Wikidata. When a value is entered, Wikidata's \"Item\" namespace will be searched for matching items.",
+  "datatypes-type-wikidata-item": "Wikidata Item"
+}
